@@ -17,4 +17,15 @@ Note: Upload the project in Github and share the link with us.
 clike here to know about the [challenge](https://docs.google.com/document/d/1RvJaYLFOp7uOydSk8Cy7dMBJh2jz0GZ4_4DqbzhH7JE/edit#)
 
 ## 2. Solution Demo:
+![demo](https://github.com/sumankanukollu/omnilytics/raw/main/omnilytics_coding_challenge_demo.gif)
 
+## 3. Resources used:
+* Django
+* Python
+
+## 4. REST API's:
+* Home page : http://127.0.0.1:8000/
+* To generate four (4) types of printable random objects and store them in a single file : http://127.0.0.1:8000/generate/?
+* Generated sample outputfile is at : https://github.com/sumankanukollu/omnilytics/raw/main/omnilyticsApp/omni_log_2.txt
+* API to download the generated file :  http://127.0.0.1:8000/download/
+* API to display the total number of each random objects : http://127.0.0.1:8000/report/?
