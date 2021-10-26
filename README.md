@@ -17,7 +17,9 @@ Note: Upload the project in Github and share the link with us.
 clike here to know about the [challenge](https://docs.google.com/document/d/1RvJaYLFOp7uOydSk8Cy7dMBJh2jz0GZ4_4DqbzhH7JE/edit#)
 
 ## 1. Code for the solution : 
-https://github.com/sumankanukollu/omnilytics
+* https://github.com/sumankanukollu/omnilytics
+* Backend logic : https://github.com/sumankanukollu/omnilytics/blob/main/omnilyticsApp/codechallenge/omnilytics.py
+
 
 ## 2. Solution Demo:
 ![demo](https://github.com/sumankanukollu/omnilytics/raw/main/omnilytics_coding_challenge_demo.gif)
