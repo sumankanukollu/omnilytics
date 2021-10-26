@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omnilytics Challenge</title>
+</head>
+
+<body>
+    <nav><a href="/">Home Page</a></nav>
+    <h2>Here is my soulution : </h2>
+    <form method="GET" action="/generate/">
+        <button type="submit">Generate</button>
+    </form>
+
+    {% if showLink %}
+        <p>Generated successfully click the below link to download!!</p>
+        <a href="{% url 'download_file' %}" download="omni_log_2.txt">Download file </a>
+        <br><br>
+        <form method="GET" action="/report/">
+            <button type="submit">Report</button>
+        </form>
+
+        {% if display_report %}
+            <ul>
+                <li>Integers        : {{ int }}</li>
+                <li>Alpha Numeric   : {{ alnum }}</li>
+                <li>Real Numbers    : {{ realnum }}</li>
+                <li>Alphabets       : {{ alpha }}</li>
+            </ul>
+        {% endif %}
+
+    {% endif %}
+
+
+
+</body>
+
+</html>
